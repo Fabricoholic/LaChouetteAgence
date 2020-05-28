@@ -28,7 +28,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -88,6 +87,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    opacity: 0.5;
 }
 
 .texture-paper::before {
@@ -651,10 +651,13 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+
+    text-align: center;
 }
 
 p {
     color: #392312;
+    font-size : 18px;
 }
 
 .container {
@@ -679,9 +682,6 @@ p {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 15px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -1047,4 +1047,8 @@ h4 {
     margin: auto;
     padding: 30px;
     border-radius: 30px;
+}
+
+#bloc-6 {
+    text-align: center;
 }
