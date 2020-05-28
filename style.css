@@ -645,13 +645,16 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+p {
+    color: #392312;
 }
 
 .container {
