@@ -437,7 +437,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+
 }
 
 .mg-lg {
@@ -691,7 +691,6 @@ p {
 }
 
 .cta-hero {
-    margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -707,6 +706,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: black!important;
 }
 
 h3 {
@@ -723,7 +723,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white!important;
 }
 
 h4 {
@@ -1036,4 +1036,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.custom-bg {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px;
 }
