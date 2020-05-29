@@ -1029,7 +1029,7 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
