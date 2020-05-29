@@ -447,6 +447,7 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
+    cursor: pointer;
 }
 
 .btn.pull-right {
@@ -657,7 +658,7 @@ a {
 
 p {
     color: #392312;
-    font-size : 18px;
+    font-size : 1.5rem;
 }
 
 .container {
@@ -1033,6 +1034,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .flexbox {
+        flex-direction: column-reverse;
+    }
+    .adresse {
+        text-align: center;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1051,4 +1059,40 @@ h4 {
 
 #bloc-6 {
     text-align: center;
+}
+
+.flexbox {
+    display:flex;
+}
+
+.flexbox .formulaire {
+    flex: 2;
+}
+
+ 
+
+.champ_formulaire {
+    background-color: rgba(219, 219, 219, 1);
+    border: 0px solid rgba(255, 255, 255, 1);
+    color: #575756;
+    margin: 0 0 5px;
+    width: 90%;
+    border-radius: 5px;
+    padding: 10px;
+    font-size : 16px;
+    font-family: arial;
+}
+
+#form1 .btn {
+    text-align: center;
+}
+
+.boutonenvoi {
+    text-align: center;
+}
+
+.adresse p {
+    font-size : 18px;
+    font-family : Arial, serif;
+    margin: 0;
 }
