@@ -1034,12 +1034,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .flexbox {
-        flex-direction: column-reverse;
-    }
     .adresse {
         text-align: center;
-        margin-bottom: 30px;
+        margin-top: 30px;
     }
 }
 
@@ -1061,22 +1058,12 @@ h4 {
     text-align: center;
 }
 
-.flexbox {
-    display:flex;
-}
-
-.flexbox .formulaire {
-    flex: 2;
-}
-
- 
-
 .champ_formulaire {
     background-color: rgba(219, 219, 219, 1);
     border: 0px solid rgba(255, 255, 255, 1);
     color: #575756;
     margin: 0 0 5px;
-    width: 90%;
+    width: 100%;
     border-radius: 5px;
     padding: 10px;
     font-size : 16px;
