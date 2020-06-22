@@ -1449,6 +1449,8 @@ img {
 
 
 
+
+
 .img-rounded {
     border-radius: 6px
 }
@@ -1647,7 +1649,7 @@ p {
 @media (min-width:768px) {
     .lead {
         font-size: 21px
-    }
+    }    
 }
 
 .small,
@@ -1840,6 +1842,13 @@ dt {
 
 dd {
     margin-left: 0
+}
+
+@media (max-width: 768px) {
+    .img-responsive {
+        display: inline
+    }
+    
 }
 
 @media (min-width:768px) {
