@@ -88,16 +88,31 @@
 					<div class="container bloc-lg">
 						<div class="row">
 							<div class="col-sm-6">
-								<form id="form_1" method="post" action="formulaire_contact.php">
-									<input type="text" placeholder="Nom *" name="nom" id="nom" class="champ_formulaire" required/><br>
-									<input type="email" placeholder="Email *" name="email" id="email" class="champ_formulaire" required/><br>
-									<input type="text" placeholder="Comment nous avez-vous connu ?" name="connucomment" id="connucomment" class="champ_formulaire" /><br>
-									<textarea placeholder="Brief de votre projet.&#10;Ajoutez autant de détails que nécessaire." rows="10" name="brief" id="brief" class="champ_formulaire" required></textarea><br>
-									<br>
-									<div class="boutonenvoi">
-										<input type="submit" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" value="Envoyer" />
+								<form id="form_1" method="post">
+									<div class="form-group">
+										<label for="name">
+											Nom
+										</label>
+										<input id="name" name="name" class="form-control" required />
 									</div>
-									
+									<div class="form-group">
+										<label for="email">
+											Adresse email
+										</label>
+										<input id="email" name="email" class="form-control" type="email" required />
+									</div>
+									<div class="form-group">
+										<label for="connucomment">
+											Comment nous avez-vous connu ?
+										</label>
+										<input id="connucomment" name="connucomment" class="form-control" type="text" required/>
+									</div>
+									<div class="form-group">
+										<label for="message">
+											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+										</label><textarea id="message" name="brief" class="form-control" rows="4" cols="50" required></textarea>
+									</div> 
+									<input type="submit" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" value="Envoyer" />
 								</form>
 							</div>
 							<div class="col-sm-6 adresse">
